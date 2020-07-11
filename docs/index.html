@@ -1,0 +1,168 @@
+<!-- html:5 + tab o enter -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Geotecnologías</title>
+</head>
+<body>
+
+  <!-- ===========
+    Comentarios 
+  ================ -->
+  
+  <!-- Va el comentario -->
+  <!-- 1.- Ocultar código, para encontrar errores -->
+  <!-- 2.- Ocultar código de manera provisoria -->
+  <!-- 3.- Para escribirle al yo del futuro -->
+
+  <div>
+    <!-- ul>li*2>a -->
+    <ul>
+      <li><a href="#Tendencias">Tendencias de las Tecnologías de la Información Geogràfica</a></li>
+      <li><a href="#SIG">Mucho mas SIG</a></li>
+      <li><a href="#Geopackage">Geopackage: asignatura pendiente</a></li>
+      <li><a href="C:\Cursos\Desarrollo_Web\Clase_02\TP_Clase_02\geotecnologias.html">Recursos</a></li>
+    </ul>
+  </div>
+  <div>
+    <h1 id="arriba">Geotecnologías, la geografía automatizada</h1> 
+    <!-- ==========
+        Imágenes 
+    =============== -->
+    <!-- Ruta relativa de una imagen -->
+    <!-- >> Hace referencia a una ubicación que es relativa a un directorio actual -->
+    <img src="C:\Cursos\Desarrollo_Web\Clase_02\TP_Clase_02\images\geotecnologias_covid.png" width="1300" alt="COVID-19" title="Aplicación de las geotecnologías en el COVID-19">  
+
+    <p>La geografía actual se ha consolidado como una ciencia de analísis de la realidad, que Dobson denomino "geografía automatizada". Esta nueva geografía se basa en la geotecnología, es un conjunto de herramientas, métodos, técnicas y procedimientos orientados a la gestión de análisis espacial de la información geográfica.</p>
+    <p>Dentro de geotecnologías podríamos englobar todas aquellas soluciones de ingeniería (geomática) y software (geoinformática) capaces de permitir la recolección, almacenamiento, procesado, análisis y presentación de la información geográfica</p>
+    <p>Podemos incluir:</p>
+    <ul>      
+      <li>Los dispositivos para obtención de múltiples tipos de datos como fuente primaria: imágenes satelitales, Radar y LiDAR, GPS, cámaras térmicas, sensores para drones, sensores para Smart City…</li>
+      <li>El software dedicado al almacenamiento, el geoprocesamiento y el análisis de estos datos: Bases de Datos Espaciales y sistemas gestores asociados, Sistemas de Información Geográfica (GIS) de escritorio, software ETL (Extract, Transform, Load), así como otras plataformas, tecnologías y ambientes de análisis y procesado de datos como R o Python y sus distintas librerías, entre otros. Su objetivo (aunque no el único) es la transformación de los datos en información.</li>
+      <li>El amplio conjunto de soluciones para la visualización de la información obtenida en distintos formatos y soportes: gráficos, cartográficos, analógicos, digitales, interactivos, dinámicos, estáticos, en la web. El objetivo es la transmisión de esta información a terceros, la toma de decisiones y la compartición efectiva.</li>
+    </ul>
+  </div>
+  <hr>
+
+  <!-- Acordarme de terminar esta parte de abajo -->
+  <div id="Tendencias">
+    <h2 id="inicios">Tendencias de las Tecnologías de la Información Geogràfica</h2>
+  </div>
+
+    <div>
+      <h3>Información, toneladas de información</h3>
+      <p>Una simple mirada a la oferta actual del mercado de datos geográficos nos advierte que una de las claves que marcarán claramente el desarrollo de las geotecnologías en este futuro cercano, es la disponibilidad información georreferenciada en cantidades masivas.
+      <br><br>
+      Información proveniente de sensores satelitales que empieza a estar directamente disponible a través de servicios API, como el que ya ofrece USGS&NASA a través del Servicio Web de Amazon (AWS) con datos de Landsat 8, a la que se sumará en breve una amplia oferta producida desde plataformas de pequeños satélites (smallsat, cubesat, nanosat).
+      <br><br>
+      A los muchos terabytes de información geolocalizada que pondrán en nuestras manos las flotas de vehículos aéreos no tripulados, habrá que añadir la procedente de dispositivos geolocalizados, lo que se conoce por el “Internet de las Cosas”, sin olvidar la ingente e inimaginable cantidad de datos producidos a partir de las geoetiquetas que, voluntariamente o no, genera nuestra actividad en Internet, y de cuya relevancia ya tuvimos oportunidad de hacernos una idea en el año 2010, cuando Raffi Krikorian nos mostró el peso que tienen las geotags en la radiografía de un tuit, el llamado "Social Big Data" en su versión geo.
+      <br><br>
+      Para hacer frente a esta desbordante cantidad de información, ante la que normalmente fracasan los procedimientos tradicionales de procesamiento en paralelo, será necesario diseñar otro tipo de estrategias, entre las que se anuncian como una posible alternativa las basadas en el clusterizado del almacenamiento y el procesado a partir de frameworks del tipo de Hadoop o Spark, por poner dos ejemplos notables de esta tecnología en el ámbito del software abierto. Aunque conocer cuándo y cómo se adaptarán las herramientas ETL (Extract Transform Load)  de geoprocesamiento a este nuevo entorno, es todavía una incógnita por resolver.</p>
+      <img src="https://hadoop.apache.org/hadoop-logo.jpg" width="250" alt="">
+      <img src="https://spark.apache.org/images/spark-logo-trademark.png" width="250" alt="">
+    </div>
+
+    <div>
+      <h3>De los servicios cartográficos al geoanálisis</h3>
+      <p>Otro de los detalles que no pasan ajenos al ojo de un observador, es el cambio que ha sufrido en los últimos meses el menú de servicios de algunas compañías geográficas, como es el caso de CARTO, en el que la tradicional oferta de alojamiento de información + generación de cartografía on line, está siendo complementada con avanzados servicios de análisis espacial.
+      <br><br>
+      La llamada «Inteligencia Geoespacial», que viene siendo objeto de estudio por parte de amplios colectivos y fundaciones como la USGIF (United States Geospatial Intelligence Foundation) comienza a trascender más allá de las agencias gubernamentales como la NGA americana, para ser una opción de mercado dirigida a otro perfil de clientes.
+      <br><br>
+      Pero esta geointeligencia, cuyo máximo nivel de servicios trata de subir a la nube datos en tiempo real y tras un procesado remoto presentarlos al usuario final en forma de mapas o mediante técnicas de realidad aumentada, todavía no ha calado en profundidad y de forma ordenada en el ámbito de las SmartCities, cuyos desarrollos olvidan en muchos casos el componente espacial.
+      <br><br>
+      En este sentido estaremos atentos al proyecto Geosmartcity avalado por la Unión Europea, cuyo Hub, dirigido a la prestación coordinada de servicios espaciales y no espaciales en el ámbito municipal, tendremos oportunidad de conocer dentro de unos días en la Conferencia Inspire 2016 de Barcelona.
+      <br><br>
+      No obstante, esta situación puede cambiar rápidamente, ya que el escenario de geoservicios ciudadanos puede sufrir un fuerte impulso en los próximos meses a partir de la proliferación de elementos activos geolocalizados, gracias al desarrollo de servicios de conexión 4GLTE.</p>
+      <img src="https://carto.com/img/home/asset_maps.9dbbc29d.gif" width="800" alt="">
+    </div>
+
+    <div>
+      <h3>Los ¿viejos? estándares OGC</h3>
+      <p>Es innegable que el sector de la geoinformación es un notable caso de éxito en cuanto a la estandarización de servicios. Mérito que hay que atribuir principalmente al Open Geospatial Consortium (OGC), impulsor de la normalización de todo el conjunto de protocolos y servicios que hoy dan forma a las Infraestructuras de Datos Espaciales (IDE).
+      <br><br>
+      Pero pasados los años en los que los geoservicios estaban principalmente dirigidos a los equipamientos de sobremesa, protocolos como WMS (Web Map Service) o WFS (Web Feature Service) se ven obligados hoy a desenvolverse en entornos móviles tremendamente exigentes en cuanto a tiempos de respuesta y flujos de información para los cuales no están específicamente concebidos y donde las  Interfaces de Programación de Aplicaciones  (APIs) suponen un duro competidor.
+      <br><br>
+      Este nuevo ecosistema está empujando a los suministradores de geoinformación a dirigir su mirada hacia el desarrollo de servicios basados en APIs, en los que la posibilidad de utilizar técnicas de gestión de datos binarios, como Typed Arrays, ofrece tiempos de respuesta difíciles de superar.
+      <br><br>
+      Aunque todavía es pronto para predecir cómo evolucionarán los distintos estándares utilizados por las IDEs para adaptarse a los entornos móviles, la realidad es que los usuarios exigen cada vez más, y es seguro que no están dispuestos a esperar.</p>
+      <img src="https://leafletjs.com/docs/images/logo.png" width="400">
+    </div>
+
+    <div>
+      <h3>Tile, tile, tiele</h3>
+      <p>Si una tecnología ha permitido el despegue del «Web Mapping», esta ha sido la de los servicios de mapas basados en tiles, gracias a la cual se han conseguido unos tiempos de respuesta en la visualización no conocidos hasta entonces.
+      <br><br>
+      Desde los incipientes servicios que almacenaban las teselas en estructuras de directorios, hasta los más actuales soportados en formato MBtiles o suministrados a través del estándar WMTS, esta metodología de visualización muy utilizada para la representación cartográfica multiescala, se ha manifestado muy eficiente en el lado del consumidor.
+      <br><br>
+      No se puede decir lo mismo de su producción, ya que su aspecto más espinoso es el que tiene que ver con la generación y actualización de las teselas ráster. A pesar de la gran contribución que ha supuesto la librería Mapnik, permitiendo automatizar la producción de mapas base de gran calidad visual y un alto control en la representación de etiquetas, la velocidad de actualización de una información en continuo cambio y transformación sigue suponiendo una tarea muy pesada. Las compañías que prestan servicios de mapas on line, han sido las que han sufrido de forma más importante este peaje, y quizá por ello, las que de forma más enérgica han impulsado la aplicación de las técnicas de teselado al campo de la información vectorial.
+      <br><br>
+      La fragmentación de la información vectorial en teselas, lo que se conoce por «Vector Tiles», permite una actualización mucho más rápida, además de un renderizado dinámico basado en reglas de simbolización, capaz de adaptarse al gusto personal de cada usuario.
+      <br><br>
+      Por ello, actualmente existen varias propuestas técnicas para el manejo de los tiles vectoriales, algunas de ellas propietarias y serializadas mediante protocol-buffer y otras abiertas. Lo que es claro, es que la rápida asunción de esta tecnología por una buena parte del software que ofrece servicios de mapas, como MapServer o GeoServer y algunas firmas comerciales, y la muy reciente creación de una lista de correo específica para la discusión sobre este formato en el marco de OSGeo anuncian claramente una fuerte implantación en los próximos años de esta tecnología, dirigida tanto a la diseminación de información geográfica como a la producción dinámica de cartografía de referencia.</p>
+      <img src="https://openmaptiles.org/img/press/logo.png">
+    </div>
+
+    <div>
+      <h3>Webgl, gran desconocida</h3>
+      <p>Más y mejores gráficos, ese es el objetivo y por eso la tecnología web cartográfica más avanzada está moviéndose con decisión hacia WegGL. Una API javascript basada en OpenGL ES 2.0 que permite aprovechar bajo ciertas condiciones técnicas la capacidad hardware del usuario en beneficio de un mejor rendimiento gráfico, sin exigir el tributo que supone la instalación de plugins.
+      <br><br>
+        Por esta tecnología han apostado ya firmemente empresas de referencia como MapBox y proyectos como MapZen. Aunque la práctica de WebGL todavía presenta algunos problemas e inconvenientes que no se dan con otras librerías para mapas interactivos como Leaflet u OpenLayers, de uso muy extendido, es más que previsible que se acabe imponiendo, por lo que el tándem WegGL+APIs+VectorTiles, hoy en día solo al alcance de compañías que disponen de un gran músculo informático, augura una nueva dimensión en lo relativo a servicios cartográficos en la web.
+      <br><br>
+        Aunque en materia de representación gráfica existen unas tendencias claramente dibujadas, el panorama no está tan claro en lo relativo al geoprocesamiento y al análisis espacial en la web, ya que librerías tan prometedoras como Turf no han respondido a las expectativas que en su día generaron al no tener por parte de los desarrolladores la acogida que todos hubiéramos deseado, lo que finalmente se traduce en una todavía escasa oferta de geoservicios web.</p>
+      <img src="https://cesium.com/images/why-cesium/byod.jpg" width="800">
+    </div>
+  
+  <div id="SIG">
+    <h2>Mucho más SIG</h2>
+    <p>Como es de sobra conocido, el sector de los Sistemas de Información Geográfica (SIG) de escritorio ha estado tradicionalmente muy ligado a los grandes productos de marca como ArcGIS o Geomedia, aunque en en distintas proporciones.
+    <br><br>
+    Si antes decíamos que el sector de las geotecnologías era una referencia en materia de normalización de servicios, ha sido en el terreno del software libre donde la etiqueta «GEO» ofrece desde hace años un aval de absoluta confianza y, si anteriormente atribuíamos el mérito de la normalización al OGC, ahora es obligado señalar la importancia capital que ha tenido la Open Software Geospatial Foundation (OSGeo) como hábitat de desarrollo, permitiendo madurar en su seno los más importantes proyectos de software geomático: desde geolibrerías de referencia como GDAL, utilizada en cualquier SIG que se precie, hasta extensiones espaciales para bases de datos como PostGIS, aplicaciones SIG como QGIS o gvSIG y servicios de catálogo de metadatos como GeoNetwork. El universo de OSGeo es muy amplio y variado y felizmente en continua actualización. Tener a mano una tan amplia alternativa de software libre para atender a casi cualquier necesidad, supone que tanto el usuario profesional como el institucional se plantee seriamente todas las alternativas, lo que está empujando a las firmas comerciales a ofrecer un conjunto de servicios añadidos principalmente orientados al almacenamiento y servicios de publicación y procesado en la nube.
+    <br><br>
+    Se trate de una opción comercial o no, tanto el sector de las aplicaciones SIG como el de las Bases de Datos Espaciales ha alcanzado un importante punto de madurez y de integración con otras tecnologías como el procesamiento LIDAR o el acceso a servicios remotos de todo tipo.
+    <br><br>
+    En este marco, cada día tiene más peso el desarrollo de código ad-hoc, lo que está generando una gran demanda de profesionales entrenados en SIG y con formación en programación. La fácil aproximación al lenguaje Python desde otras disciplinas profesionales y la existencia de librerías especializadas en análisis espacial en este lenguaje como PySAL está ampliando el universo de las aplicaciones SIG y de las Bases de Datos Espaciales.</p>
+    <img src="C:\Cursos\Desarrollo_Web\Clase_02\TP_Clase_02\images\python-arcgis-y-qgis.jpg">
+  </div>
+
+  <div id="Geopackage">
+    <h2>Geopackage: asignatura pendiente</h2>
+    <p>Son legión los profesionales que desde hace años llevan anunciando la muerte del formato Shapefile. Razones no les faltan, ya que los inconvenientes que supone tener que luchar con las antiguas páginas de códigos utilizadas por los ficheros dbf además de otras carencias, aconsejaban dejarlo hace tiempo en dique seco.
+    <br><br>
+    Pero nos guste o no, el formato shapefile sigue tan vivo como siempre a pesar de que existe una amplia alternativa en cuanto a formatos de almacenamiento mucho más sofisticados, llegando incluso algunos de ellos a constituir pequeños universos DataBase con el lenguaje SQL incorporado, como es el caso de SpatiaLite. El intento más sólido de diseñar un formato abierto para la información geoespacial con vocación universal, ha sido el protagonizado por GeoPackage, liderado por OGC.
+    <br><br>
+    Este formato, configurado como una extensión de SQLite, está diseñado para albergar información vectorial de todo tipo así como matrices ráster, a lo que se añade el soporte de índices espaciales Rtree y la posibilidad de definir triggers, entre otras funcionalidades.
+    <br><br>
+    Por otra parte y aunque está especialmente pensado para su utilización en dispositivos móviles, se podría decir que en la práctica no tiene límite de almacenamiento ya que el límite físico que marca el formato es de 140 TB.
+    <br><br>
+    Todas estas y muchas más son las excelencias de este formato, pero a pesar de ellas, todavía no se constata un uso masivo del mismo, por lo que cabe preguntarse si la lógica y necesaria complejidad de su diseño confirma el viejo dicho de que «lo perfecto es enemigo de lo bueno».
+    <br><br>
+    Pero hablando de formatos de almacenamiento y situándonos esta vez en el mundo de los formatos planos de datos espaciales, es obligado dejar constancia de la progresiva implantación del formato GeoJson en detrimento de formatos como GML o WKT, y esto, muy a pesar de encontrarse fuera de los circuitos oficiales de normalización. En este caso se puede hablar de normalización de facto y al contrario de lo que ocurre con GeoPackage, la simplicidad del formato es su mejor tarjeta de presentación.
+    <br><br>
+    Como se puede comprobar y a pesar del esfuerzo, no es sencillo hacer un análisis completo y exhaustivo de las tecnologías que posiblemente marquen el compás de la geoinformación en los próximos meses o años, pero lo que sí parece claro, es que en este mercado ya no es posible medir la influencia de una tecnología en función de la marca comercial que la sostiene. </p>
+    <img src="C:\Cursos\Desarrollo_Web\Clase_02\TP_Clase_02\images\geopkg.png">
+  </div>
+    
+  <hr>
+  <!-- =============
+      Vínculos 
+  ================== -->
+  <!-- Vínculos // externos -->
+  <h4>Vínculos</h4>
+    <a href="http://www.google.com" target="_blank"><img src="C:\Cursos\Desarrollo_Web\Clase_02\TP_Clase_02\images\google.png" width="100"></a>
+
+
+  <!-- Con target="_blank" le indicamos que se abra en una nueva pestaña -->
+  
+  <br><br><br>
+ 
+  <!-- ========
+      Anclas (navegación interna en la misma página donde estamos)
+  ============= -->
+  <a href="#arriba">Volver al inicio</a>
+    
+  <br>
+  <br>
+  
+</body>
+</html>
